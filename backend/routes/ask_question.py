@@ -11,6 +11,7 @@ from typing import List, Optional
 from logger import logger
 import os
 
+
 router=APIRouter()
 
 @router.post("/ask/")

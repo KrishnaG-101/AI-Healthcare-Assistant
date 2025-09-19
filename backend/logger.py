@@ -1,5 +1,6 @@
 import logging
 
+
 def setup_logger(name="AI-Healthcare-Assistant"):
     logger=logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
