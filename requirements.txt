@@ -1,0 +1,33 @@
+# Web Framework
+fastapi==0.116.2
+uvicorn==0.35.0
+python-multipart==0.0.20
+
+# Frontend & UI
+streamlit==1.49.1
+requests==2.32.5
+
+# LangChain Ecosystem & Embeddings
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-core==0.3.76
+langchain-groq==0.3.8
+langchain-google-genai==2.1.12
+
+# Vectorstore
+pinecone==7.3.0
+
+# PDF Parsing
+pypdf==6.0.0
+
+# Environment Variables
+python-dotenv==1.1.1
+
+# Typing & Utilities
+pydantic==2.11.9
+tqdm==4.67.1
+
+# Logging
+loguru==0.7.3
+
+# Use the following command to install all the required modules: uv pip install -r requirements.txt
