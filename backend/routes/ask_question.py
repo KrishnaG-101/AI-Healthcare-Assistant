@@ -1,3 +1,4 @@
+import os
 from fastapi import APIRouter, Form
 from fastapi.responses import JSONResponse
 from modules.llm import get_llm_chain
@@ -9,7 +10,6 @@ from pinecone import Pinecone
 from pydantic import Field
 from typing import List, Optional
 from logger import logger
-import os
 
 
 router=APIRouter()

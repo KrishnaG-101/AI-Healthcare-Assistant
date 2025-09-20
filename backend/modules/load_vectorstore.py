@@ -33,6 +33,7 @@ if PINECONE_INDEX_NAME not in existing_indexes:
         metric="dotproduct",
         spec=spec
     )
+    
     while not pinecone_instance.describe_index(PINECONE_INDEX_NAME).status["ready"]:
         time.sleep(1)
 
