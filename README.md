@@ -22,8 +22,7 @@ To set up and run the project locally, follow these steps. This project uses **u
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/KrishnaG-101/AI-Healthcare-Assistant.git](https://github.com/KrishnaG-101/AI-Healthcare-Assistant.git)
-    cd AI-Healthcare-Assistant
+    git clone https://github.com/KrishnaG-101/AI-Healthcare-Assistant.git
     ```
 
 2.  **Install dependencies using `uv`:**
