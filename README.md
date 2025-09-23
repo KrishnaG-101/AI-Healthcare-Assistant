@@ -6,6 +6,11 @@
 
 ---
 
+## 📐 System Architecture
+![System Architecture](https://github.com/KrishnaG-101/AI-Healthcare-Assistant/blob/main/AI%20Healthcare%20Assistant%20System%20Architecture.png)
+
+---
+
 ## 🚀 Getting Started
 
 To set up and run the project locally, follow these steps. This project uses **uv** as the package manager for fast and efficient dependency management.
@@ -25,12 +30,19 @@ To set up and run the project locally, follow these steps. This project uses **u
     git clone https://github.com/KrishnaG-101/AI-Healthcare-Assistant.git
     ```
 
-2.  **Install dependencies using `uv`:**
+2.  **Setup project and virtual environment:**
+    ```bash
+    uv init
+    uv venv
+    .venv/Scripts/activate -- (for windows users, it might be different for others)
+    ```
+
+3.  **Install dependencies using `uv`:**
     ```bash
     uv pip install -r requirements.txt
     ```
 
-3.  **Set up environment variables:**
+4.  **Setup environment variables:**\
     Create a `.env` file in the root directory and add your API keys for **Groq**, **Pinecone**, and **Google GenAI**.
     ```
     GOOGLE_API_KEY="your_google_api_key"
@@ -94,17 +106,16 @@ The application will open automatically in your web browser. If it doesn't, navi
 ### Other Modules
 -   **Python-dotenv:** Manages environment variables for API keys and configurations.
 -   **Pydantic:** Provides data validation and settings management.
--   **Tqdm:** A progress bar library, useful for tracking long-running processes like document parsing or embedding.
+-   **Tqdm:** A progress bar library, usefule for tracking long-running processes like document parsing or embedding.
 -   **Loguru:** A simple yet powerful logging library for debugging and tracking application events.
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to open an issue or submit a pull request.
+## 🖥️ User Interface
+![UI Screenshot](https://github.com/KrishnaG-101/AI-Healthcare-Assistant/blob/main/AI%20Healthcare%20Assistant%20File%20Upload%20Screenshor.png)
 
 ---
 
 ## 📄 License
 
-This Project is licenses under MIT License.
+This Project is licensed under MIT License.
