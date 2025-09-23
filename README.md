@@ -112,7 +112,7 @@ The application will open automatically in your web browser. If it doesn't, navi
 ---
 
 ## 🖥️ User Interface
-![UI Screenshot](https://github.com/KrishnaG-101/AI-Healthcare-Assistant/blob/main/AI%20Healthcare%20Assistant%20File%20Upload%20Screenshor.png)
+![UI Screenshot](https://github.com/KrishnaG-101/AI-Healthcare-Assistant/blob/main/AI%20Healthcare%20Assistant%20File%20Upload%20Screenshot.png)
 
 ---
 
